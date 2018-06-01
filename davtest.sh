@@ -4,9 +4,12 @@ pkg update && pkg upgrade
 pkg install wget
 pkg install perl
 pkg install zip
+pkg install toilet
 echo
 echo "Davtest is downloading......"
 echo
+toilet download
+toilet devtest
 wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/davtest/davtest-1.0.zip
 echo
 echo "extracting file ........"
